@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #ff5c5c;
+}
+
+.Hello {
+  color: Red;
+  font-size: 30px;
+
+  background-color: white;
+
+  border: solid black 2px;
+  border-radius: 15px;
+
+  padding: 25px;
+  padding-left: 200px;
+
+  box-shadow: -10px 10px 10px black;
+}
+
+.Hello:hover {
+  color: #fe0101;
+  background-color: #e3e3e3;
+}
+
+.Hello:active {
+  animation: click 0.4s;
+}
+
+@keyframes click {
+  0% {
+    transform: translateY(0px);
+  }
+
+  25% {
+    transform: translateY(-2.5px);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  75% {
+    transform: translateY(-2.5px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
